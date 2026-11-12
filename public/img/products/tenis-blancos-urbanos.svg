@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img">
+<defs><radialGradient id="g" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#f6efe7"/><stop offset="1" stop-color="#e8dccf"/></radialGradient></defs>
+<rect width="600" height="600" fill="url(#g)"/>
+<ellipse cx="300" cy="535" rx="170" ry="16" fill="#000" opacity=".08"/>
+<path d="M90 390Q95 300 150 285L225 270Q250 330 320 335Q400 340 470 365Q520 380 515 430L90 440Z" fill="#fafafa" stroke="#000" stroke-opacity=".18" stroke-width="3"/>
+<path d="M92 430H515V462Q300 478 92 462Z" fill="#e1e1e1" stroke="#000" stroke-opacity=".18" stroke-width="3"/>
+<path d="M150 285L225 270Q250 330 320 335L330 372Q230 380 140 360Z" fill="#cfd8dc" opacity=".6"/>
+<path d="M250 300L290 318M268 282L308 300M286 266L326 284" stroke="#9aa5ab" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 330Q200 365 340 350" stroke="#1fa7c1" stroke-width="6" fill="none" stroke-linecap="round"/></svg>

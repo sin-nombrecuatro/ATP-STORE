@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="icon" href="/img/logo.png">
+<title>Contacto | ATP store</title>
+</head>
+<body data-page="contacto">
+<div id="site-header"></div>
+<main class="container auth-wrap">
+  <div class="panel">
+    <h2 class="section-title">Contáctanos</h2>
+    <p class="section-sub">Escríbenos y te respondemos pronto.</p>
+    <div class="msg" id="msg" role="status" hidden></div>
+    <form id="contact-form">
+      <label for="name">Nombre</label><input id="name" name="name" required maxlength="80">
+      <label for="email">Correo</label><input id="email" name="email" type="email" required>
+      <label for="message">Mensaje</label><textarea id="message" name="message" rows="5" required maxlength="1000"></textarea>
+      <p style="margin-top:18px"><button class="btn" type="submit">Enviar mensaje</button></p>
+    </form>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="/js/app.js"></script>
+<script src="/js/advisor.js"></script>
+<script src="/js/contacto.js"></script>
+</body>
+</html>
